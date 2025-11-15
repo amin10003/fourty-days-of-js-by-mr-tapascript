@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment of day04 from 40 days of js</title>
+    <script defer src="script2.js"></script>
+    <style>
+        body{
+           background-color: grey;
+           padding: 20px;
+           margin:40px 100px 40px 100px;
+          
+
+        }
+        .main-container {
+            display: flex;
+            flex-direction: column;
+            width:400px;
+            
+            max-height: content;
+            background-color: white;
+            margin: auto;
+            border:none;
+            padding: 0px;
+            border-radius:8px 8px 8px 8px;
+           
+
+            
+
+        }
+        h1{
+            text-align: center;
+            font-size: 60px;
+            color: blue;
+        }
+        #display {
+            width: 100%;
+            height: 100px;
+            background-color: #000;
+            color: white;
+            font-size: 60px;
+            border-radius:8px 8px 10px 10px;
+            padding: 2px;
+            box-sizing: border-box;
+            text-align: right;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            box-shadow: 0px 4px 10px rgpa(0, 0, 0, 0.3)
+        }
+        .btns{
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10px;
+            padding: 20px;
+
+        }
+        #equal{
+          
+            background-color: #ff6b6b;
+            border : none;
+            border-radius: 10px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        button {
+            padding: 20px;
+            font-size: 24px;
+        }
+        .numbers{
+            background-color: #e0e0e0;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+
+        }
+        .operator{
+            background-color: #ffc04d;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+        button:hover {
+            opacity: 0.8;
+        }
+        #clear{
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            background-color: #ff9999;
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <h1>Assignment of day04 from tapascript</h1>
+    <div class="main-container">
+        <input id="display" class="display" readonly/>
+        <div id="btns" class="btns">
+          <button id="7" class="numbers">7</button>
+          <button id="8" class="numbers">8</button>
+                 <button id="9" class="numbers">9</button>
+                 <button id="clear">AC</button>
+                 <button id="5" class="numbers">5</button>
+                 <button id="4" class="numbers">4</button>
+                 <button id="6" class="numbers">6</button>
+                  <button id="*" class="operator">*</button>
+                  <button id="1" class="numbers">1</button>
+                 <button id="2" class="numbers">2</button>
+                 <button id="3" class="numbers">3</button>
+                 <button id="-" class="operator">-</button>
+                 <button id="0" class="numbers">0</button>
+                 <button id="equal" class="equal">=</button>
+                 <button id="+" class="operator">/</button> 
+                   <button id="+" class="operator">+</button>          
+    
+               
+        </div>
+
+    </div>
+</body>
+</html>
