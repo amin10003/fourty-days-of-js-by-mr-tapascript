@@ -58,24 +58,61 @@
 //Nested loop
 
 
-for(i= 1; i <= 3; i++){
-   for(let j = 1; j <= 3; j++){
-      console.log("Raw", i, "column", j )
-   }
+// for(i= 1; i <= 3; i++){
+//    for(let j = 1; j <= 3; j++){
+//       console.log("Raw", i, "column", j )
+//    }
+// }
+
+
+
+// // Break : stopping the iteration at all
+// //continue : skipping a particular part of iteration
+
+
+// for(let i = 1; i <= 10; i++){
+//    if(i === 7) continue //break
+//    console.log(i)
+// }
+
+
+// for( i = 1, j = 10; i <= 8 && j >= 2; i++, j--){
+//    console.log(i , j)
+// }
+
+
+// While :- is best when you don't how many times to iterate the loop
+
+let counter = 100;
+
+while(counter >= 0){
+   console.log(counter);
+   counter--;
 }
 
 
 
-// Break : stopping the iteration at all
-//continue : skipping a particular part of iteration
+//do-while :- it ensures that the loop is iterated at least once before checking the condition
+
+// do{
+//    //code
+// } while(condition)
 
 
-for(let i = 1; i <= 10; i++){
-   if(i === 7) continue //break
-   console.log(i)
-}
+console.log('**do-while loop**')
 
 
-for( i = 1, j = 10; i <= 8 && j >= 2; i++, j--){
-   console.log(i , j)
-}
+let num = 1
+
+do{
+   console.log(num)
+   num++
+}while(num <= 8)
+
+
+
+
+//infinte loop => never terminates
+
+
+
