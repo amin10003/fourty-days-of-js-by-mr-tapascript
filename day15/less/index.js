@@ -928,7 +928,7 @@ for(const element of arr22){
  const twoPower1 =rra2.flatMap(x => x ** 2)
 
  console.log(twoPower)
- console.log('cpmlex array',twoPower2)
+ console.log('complex array',twoPower2)
   console.log(twoPower1)
 
 

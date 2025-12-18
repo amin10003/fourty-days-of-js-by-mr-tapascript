@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 16 Debugging</title>
+    <script defer src="script.js"></script>
+    <style>
+        body {
+            background: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        
+        h1 {
+        background: white;
+        color: blue;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: none;
+        border-radius: 6px;
+        padding: 10px;
+        margin: 0 0 10px 0;
+        width: 90%;
+        font-size: 20px;
+        text-transform:uppercase;
+        
+    }
+            #m_name {
+            width: 300px;
+            height: 40px;
+            margin: 10px 0;
+            border-radius: 6px;
+            font-size: 18px;
+            padding: 5px 10px;
+            box-sizing: border-box;
+        }
+        
+        #m_wish {
+            width: 300px;
+            height: 100px;
+            margin: 10px 0;
+            border-radius: 6px;
+            font-size: 18px;
+            padding: 10px;
+            box-sizing: border-box;
+            resize: none;
+            font-family: Arial, sans-serif;
+        }
+        
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            border-radius: 10px;
+            border: 1px solid grey;
+            background-color: #000;
+            width: 450px;
+            padding: 10px;
+            box-sizing: border-box;
+            margin: 20px;
+            border:none;
+            z-index:1
+        }
+        
+        label {
+            font-size: 20px;
+            margin: 8px 0;
+            color: white;
+            align-self: flex-start;
+        }
+        
+        button {
+            width: 100px;
+            height: 40px;
+            margin: 10px 0;
+            border-radius: 6px;
+            font-size: 16px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        
+        button:hover {
+            background-color: #45a049;
+        }
+
+        #output {
+            width: 300px;
+            min-height: 150px;
+            background-color: white;
+            color: rgb(255, 0, 200);
+            font-size: 25px;
+            margin: 10px 0;
+            padding: 15px;
+            border-radius: 6px;
+            box-sizing: border-box;
+            word-wrap: break-word;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>master debugging in js</h1>
+        <label for="m_name"><b>Enter Your Name</b></label>
+        <input type="text" id="m_name">
+        
+        <label for="m_wish"><b>Make a wish</b></label>
+        <textarea id="m_wish"></textarea>
+        
+        <button type="submit" id="btn">Submit</button>
+        
+        <div id="output">Your wish will appear here...</div>
+    </div>
+</body>
+</html>
