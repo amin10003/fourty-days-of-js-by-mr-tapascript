@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script defer src="logic.js"></script>
+    <link rel="stylesheet" href="ui.css">
+    <!-- <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.min.css"> -->
+
+</head>
+<body>
+    <h1>Task Manager</h1>
+    <input type="text" id="taskInput" placeholder="New task ...">
+    <button onClick="addtask()">Add Task</button>
+    <input type="text" id="searchinput" placeholder="Search task..." onKeyUp="filterTask()">
+
+    <ul id="taskList"></ul>
+</body>
+</html>

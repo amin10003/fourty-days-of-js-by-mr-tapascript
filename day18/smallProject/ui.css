@@ -1,0 +1,45 @@
+body{
+    margin : 0;
+    padding : 20px;
+    background-color : #fff;
+    color : #fff; 
+    font-family: sans-serif;
+    text-transform: capitalize;
+
+}
+
+.main-section{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 10px;
+    justify-content: center;
+    align-items:center;
+    border: 2px solid #333;
+    border-radius:8px;
+    height: 500px;
+    background-color: blue;
+    width: 400px;
+    margin: 40px auto;
+    font-size: 25px;
+    gap: 12px
+}
+
+.main-section h1{
+    margin-top: 0;
+    font-size: 21px
+}
+.main-section button {
+    background-color:green;
+    height: 40px;
+    max-width: fit-content;
+    width: 200px;
+    padding: 10px 15px;
+    margin-top: auto ;
+    border-radius: 8px;
+    border:none;
+}
+
+.main-section button:hover{
+    opacity: 0.5
+}

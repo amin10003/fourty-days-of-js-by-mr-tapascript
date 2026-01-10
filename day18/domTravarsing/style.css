@@ -1,0 +1,51 @@
+body{
+    margin : 0;
+    padding: 20px;
+    font-family: sans-serif;
+    background-color: #f5f5f5;
+}
+
+
+
+
+.main-class{
+    font-size: large;
+    padding: 4px;
+    margin: 40px auto;
+    border: 2px solid red;
+    /* background-image:img/profile.jpg; */
+    background-color: pink;
+    border-radius:5px;
+    margin-bottom: 30px;
+    width : 400px;
+    /* height : content-fit; */
+   
+}
+
+
+.secondary-class{
+    font-size: large;
+    padding: 4px;
+    margin: 10px;
+    border: 2px solid green;
+    /* background-image:img/profile.jpg; */
+    background-color: teal;
+    border-radius:5px;
+    margin-bottom: 30px;
+     width : 400px;
+    /* height : content-fit; */
+    color: white;
+    font-size: large;
+     margin: 40px auto;
+    
+
+}
+.layout {
+    min-height: 100vh;     /* fill the screen */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  /* vertical center */
+    align-items: center;      /* horizontal center */
+    gap: 12px;
+}
+

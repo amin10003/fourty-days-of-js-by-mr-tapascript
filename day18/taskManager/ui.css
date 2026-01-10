@@ -1,0 +1,33 @@
+ul{
+    list-style: none;
+    padding: 0;
+   
+}
+
+li {
+    padding: 10px;
+    border-bottom: 2px solid #ddd;
+     display: flex;
+     justify-content: space-between;
+     align-items:center;
+     /* gap: 200px */
+}
+
+.btnhover{
+    background: #000;
+    border-radius: 10px;
+    border : none;
+}
+
+
+.layoutBtn{
+    background: blue;
+    border-radius: 10px;
+    border : none;
+}
+
+.completed{
+    text-decoration: line-through
+}
+
+
