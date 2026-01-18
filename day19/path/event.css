@@ -1,0 +1,30 @@
+#grandparent{
+    background-color: grey;
+    border-shadow: 2px solid #333;
+    margin: auto;
+    padding: 10px;
+    color:#ffff;
+    text-size: 25px;
+    border: 2px solid  #333;
+    height: 50vh;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-end;
+    align-items: center;
+    border-radius: 10px
+
+}
+
+#grandparent button {
+    background-color: blue;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    width: 150px;
+
+}
+#grandparent button:hover{
+    background-color: #11115b;
+}
