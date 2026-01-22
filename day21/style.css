@@ -1,0 +1,125 @@
+* {
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body{
+    background-color: #8A00FF;
+    color: #f0f0f0;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color: #8A00FF;   /* main theme */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quiz-box {
+    background-color: #8A00FF; 
+    padding: 10px;
+    width: 500px;
+    height: 80vh;
+
+    text-align: center;
+
+    border-radius: 16px;
+    font-size: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+     align-items: center;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+}
+
+.timer{
+    background-color:  #8A00FF;
+    
+   // box-shadow: 0 10px 30px rgba(12, 11, 11, 0.25);
+    width: 100px;
+    text-align: center;
+    border-radius: 6px;
+  
+    height:40px;
+    color:  #ff00b3;
+   
+    font-size: 25px;
+}
+
+
+.question{
+    margin: 20px;
+    box-shadow: 0 10px 30px rgba(12, 11, 11, 0.25); 
+    border-radius: 10px;
+    padding: 10px;
+    margin-top:0;
+}
+
+
+
+
+#options {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;        /* space between buttons */
+    width: 100%;
+    padding: 10px 15px;
+}
+
+
+#next-btn{
+    padding: 10px 20px;
+    border: none;
+    background-color: #FF00B3;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+
+#next-btn:hover {
+    background-color: #711355;
+}
+
+
+
+.option-btn {
+    all: unset;                 /* remove browser default styles */
+    box-sizing: border-box;
+
+    background-color: #8A00FF;  /* same as parent */
+    width: 100%;
+    padding: 14px 18px;
+
+    border-radius: 10px;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+
+    cursor: pointer;
+
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.35);
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+
+.option-btn:hover {
+    background-color: #A64DFF;
+    transform: scale(1.02);
+}
+
+
+.correct{
+    background-color: #00FF88;
+}
+
+.wrong{
+    background-color: #FF0033;
+}
